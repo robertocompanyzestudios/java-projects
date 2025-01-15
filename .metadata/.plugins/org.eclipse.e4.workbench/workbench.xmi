@@ -10,7 +10,6 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1736322004146"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_0PAbYs6KEe--df1HmvuANQ" selectedElement="_0PAbY86KEe--df1HmvuANQ" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_0PAbY86KEe--df1HmvuANQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_0PAbZM6KEe--df1HmvuANQ">
         <children xsi:type="advanced:Perspective" xmi:id="_0PAbZM6KEe--df1HmvuANQ" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_0PAbZc6KEe--df1HmvuANQ" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -393,7 +392,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_ySjiINMyEe-OS5NfdyPA-g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TelefonoMovil.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TelefonoMovil.java&quot; partName=&quot;TelefonoMovil.java&quot; title=&quot;TelefonoMovil.java&quot; tooltip=&quot;programacionInstituto/src/programacionInstituto/TelefonoMovil.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/programacionInstituto/src/programacionInstituto/TelefonoMovil.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;191&quot; selectionTopPixel=&quot;42&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TelefonoMovil.java&quot; partName=&quot;TelefonoMovil.java&quot; title=&quot;TelefonoMovil.java&quot; tooltip=&quot;programacionInstituto/src/programacionInstituto/TelefonoMovil.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/programacionInstituto/src/programacionInstituto/TelefonoMovil.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;430&quot; selectionTopPixel=&quot;42&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -641,7 +640,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0PBqVM6KEe--df1HmvuANQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4V92QNNXEe-IpMT3Un4qXw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0PEFxs6KEe--df1HmvuANQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rEeRYNNfEe-YzctXyqa7PA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0PEFxs6KEe--df1HmvuANQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0PBqYc6KEe--df1HmvuANQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -649,8 +648,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0PBqY86KEe--df1HmvuANQ" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4WBgpdNXEe-IpMT3Un4qXw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_0PDgAM6KEe--df1HmvuANQ"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4WBgptNXEe-IpMT3Un4qXw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_0PDges6KEe--df1HmvuANQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rEffgNNfEe-YzctXyqa7PA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_0PDgAM6KEe--df1HmvuANQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rEffgdNfEe-YzctXyqa7PA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_0PDges6KEe--df1HmvuANQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0PBqZ86KEe--df1HmvuANQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -674,7 +673,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0PBqns6KEe--df1HmvuANQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4WDV0NNXEe-IpMT3Un4qXw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0PDhW86KEe--df1HmvuANQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rEgGk9NfEe-YzctXyqa7PA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0PDhW86KEe--df1HmvuANQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0PBqqs6KEe--df1HmvuANQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
