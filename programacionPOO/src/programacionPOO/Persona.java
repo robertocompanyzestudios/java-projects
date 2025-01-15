@@ -1,0 +1,79 @@
+package programacionPOO;
+
+public class Persona {
+	//identidad
+	private String nombre;
+	private String apellido1;
+	private String apellido2;
+	
+	//físico
+	private String sexo;
+	private double altura;
+	private double peso;
+	private int edad;
+	
+	
+	
+	
+	public Persona() {
+		super();
+	}
+	
+	public Persona(String nombre, String apellido1, String apellido2){
+		super();
+		this.nombre = nombre;
+		this.apellido1 = apellido1;
+		this.apellido2 = apellido2;
+	
+	}
+	
+	//getters and setters
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getApellido1() {
+		return apellido1;
+	}
+	public void setApellido1(String apellido1) {
+		this.apellido1 = apellido1;
+	}
+	public String getApellido2() {
+		return apellido2;
+	}
+	public void setApellido2(String apellido2) {
+		this.apellido2 = apellido2;
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public double getAltura() {
+		return altura;
+	}
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+	public double getPeso() {
+		return peso;
+	}
+	public void setPeso(double peso) {
+		this.peso = peso;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	
+	public void crecer(double cm) {
+		setAltura(this.altura + cm);
+	}
+	
+	
+}

@@ -1,0 +1,47 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+
+public class Sesion {
+	
+	public static void main(String[] args) {
+		System.out.println(login("dmunuera", "123456"));
+	}
+	
+	
+	public static boolean login(String nombre, String contrasena) {
+		try {
+			File myFile = new File("./assets/usuarios.txt");
+			Scanner myScanner = new Scanner(myFile);
+			
+			
+			int contador = 0;
+			while (myScanner.hasNextLine()) {
+				String data = myScanner.nextLine();
+				String[] myString = data.split("#");
+				
+				contador++;
+				System.out.println(contador);
+				System.out.println(myString[0]);
+				System.out.println(myString[1]);
+				
+				if(nombre == myString[0] && contrasena == myString[1]) {
+					myScanner.close();
+					return true;
+				} else if (!myScanner.hasNextLine())
+				System.out.println("---fin de vuelta---");
+			}
+			
+
+			
+		} catch (FileNotFoundException e) {
+			return false;
+		}
+	
+		
+		
+	}
+		
+}
+

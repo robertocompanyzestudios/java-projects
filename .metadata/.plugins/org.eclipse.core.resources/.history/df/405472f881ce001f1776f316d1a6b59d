@@ -1,0 +1,26 @@
+package programacionPOO;
+
+public class Automovil {
+	public String marca;
+	public String modelo;
+	public String color = "blanco";
+	public int cilindrada;
+	
+	
+	public String detalle() {
+		String salida = "";
+		
+		salida = "\nMarca = " + this.marca + "\nModelo = " + this.modelo + "\nColor = " + this.color 
+				+"\nCilindrada = " + this.cilindrada + "\n";
+		
+		return salida;
+	}
+	
+	public String acelerar(int velocidad){
+		
+		return "El automovil"+ this.detalle() + " esta acelerando a esta velocidad: " + velocidad;
+	}
+	
+	
+	
+}

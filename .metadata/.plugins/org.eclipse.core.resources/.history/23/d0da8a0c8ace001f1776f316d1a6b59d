@@ -1,0 +1,11 @@
+package programacionPOO;
+
+public class Main_persona {
+
+	public static void main(String[] args) {
+		Persona roberto = new Persona();
+		
+		System.out.println(roberto.getNombre());
+	}
+	
+}

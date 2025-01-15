@@ -1,0 +1,28 @@
+package programacionPOO;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Automovil auto = new Automovil();
+		
+		/*auto.cilindrada = 100;
+		auto.marca = "Kia";
+		auto.modelo = "Carnival";
+		*/
+		
+		auto.establecerMarca("KIA");
+		auto.establecerModelo("Carnival");
+		auto.establecerColor("gris");
+		auto.establecerCilindrada(160);
+		
+		
+		System.out.println(auto.detalle());
+		System.out.println(auto.acelerar(auto.velocidad));
+		System.out.println(auto.detalle());
+		
+		System.out.println("El automovil " + auto.marca + " " + auto.modelo + " ha tardado en frenar "
+		+ auto.frenarAuto(123) + "s");
+		
+	}
+	
+}

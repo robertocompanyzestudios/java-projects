@@ -1,0 +1,9 @@
+package programacionPOO;
+
+public class Main_persona {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

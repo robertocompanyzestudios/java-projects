@@ -1,0 +1,16 @@
+package programacionPOO;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Automovil auto = new Automovil();
+		
+		auto.cilindrada = 100;
+		auto.marca = "Kia";
+		auto.modelo = "Carnival";
+		
+		
+		
+	}
+	
+}

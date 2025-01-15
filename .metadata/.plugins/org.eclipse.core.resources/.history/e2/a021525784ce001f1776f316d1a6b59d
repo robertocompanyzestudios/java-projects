@@ -1,0 +1,45 @@
+package programacionPOO;
+
+public class Automovil {
+	private String marca;
+	private String modelo;
+	private String color = "blanco";
+	private int cilindrada;
+	private int velocidad = 0;
+	
+	
+	public String detalle() {
+		String salida = "";
+		
+		salida = "\nMarca = " + this.marca + "\nModelo = " + this.modelo + "\nColor = " + this.color 
+				+"\nCilindrada = " + this.cilindrada + "\nVelocidad = " + this.velocidad;
+		
+		return salida;
+	}
+	
+	public int acelerar(int velocidad){
+		 velocidad = velocidad + 10;
+		return velocidad;
+	}
+	
+	public int frenar(int velocidad ){
+		 velocidad = velocidad - 10;
+		return velocidad;
+	}
+	
+	public double frenarAuto(int velocidad) {
+		double tiempo = 0;
+		
+		for(int i = 0;true; i++) {
+			tiempo = tiempo + 1;
+			velocidad = velocidad - 10;
+			if (velocidad < 0) {
+				tiempo = tiempo + (velocidad * -1) / 10;
+				break;
+			}
+		}
+		
+		return tiempo;
+	}
+	
+}

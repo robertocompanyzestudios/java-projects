@@ -1,0 +1,16 @@
+package programacionPOO;
+
+public class Persona {
+	//identidad
+	private String nombre;
+	private String apellido1;
+	private String apellido2;
+	
+	//físico
+	private String sexo;
+	private double altura;
+	private double peso;
+	private int edad;
+	
+	
+}
