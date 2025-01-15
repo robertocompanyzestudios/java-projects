@@ -1,0 +1,11 @@
+package programacionInstituto;
+
+public class EstudiantePrueba {
+	
+	public static void crearEstudiantes() {
+		
+	}
+	
+	
+
+}

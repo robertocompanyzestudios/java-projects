@@ -1,0 +1,11 @@
+package programacionInstituto;
+
+public class TelefonoMovil {
+	private String modelo;
+	private String fabricante;
+	private String owner;
+	private int bateria;
+	private String pantalla;
+	
+	
+}

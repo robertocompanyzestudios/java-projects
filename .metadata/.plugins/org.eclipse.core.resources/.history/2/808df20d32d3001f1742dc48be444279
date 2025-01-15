@@ -1,0 +1,12 @@
+package programacionInstituto;
+
+public class EstudiantePrueba {
+	Estudiante[] estudiantes = new Estudiante[];;
+	
+	public static void crearEstudiantes() {
+		
+	}
+	
+	
+
+}
