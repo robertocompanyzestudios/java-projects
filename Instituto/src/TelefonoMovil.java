@@ -7,6 +7,12 @@ public class TelefonoMovil {
 	private Estudiante propietario;
 
 
+	public TelefonoMovil(String modelo, String fabricante, Double precio){
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+		this.precio = precio;
+	}
+
 	public TelefonoMovil(Double precio, Bateria bateria, Pantalla pantalla, Estudiante propietario, String modelo, String fabricante) {
 		super();
 		this.precio = precio;
@@ -68,5 +74,9 @@ public class TelefonoMovil {
 	}
 	public void setFabricante(String fabricante) {
 		this.fabricante = fabricante;
+	}
+
+	public String toString(){
+		return "TelefonoMovil\nModelo = "+ this.modelo + "\nFabricante = " + this.fabricante + "\nPrecio = " + this.precio + "\nBateria = " + this.bateria + "\nPantalla = " + this.pantalla;
 	}
 }

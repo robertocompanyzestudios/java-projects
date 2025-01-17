@@ -10,6 +10,8 @@ public class Bateria{
         this.horasCapacidad = horasCapacidad;
     }
 
+
+
     //Getters and Setters
     public String getModelo() {
         return modelo;
@@ -31,4 +33,13 @@ public class Bateria{
     public void setHorasCapacidad(double horasCapacidad) {
         this.horasCapacidad = horasCapacidad;
     }
+
+
+    public String toString(
+            return "Bateria" + "\nModelo = " + this.modelo + "\nTiempo de inactividad = " + this.tiempoInactividad + ;
+    ){
+
+    }
+
+
 }

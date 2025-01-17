@@ -92,12 +92,19 @@ public class Estudiante {
 	public static void asignarTelefono(){
 
 	}
-	
+
 
 	public static void main(String[] args){
+
+		TelefonoMovil alcatelRoberto = new TelefonoMovil("PX1", "Alcatel", 599.99);
+
 		Estudiante estudiante1 = new Estudiante("Roberto", "Company", "Zomeño");
 
-		TelefonoMovil alcatelRoberto = new TelefonoMovil()
+		Bateria bateria1 = new Bateria("Xiaomi 2days", 5, 5);
+
+		alcatelRoberto.setBateria(bateria1);
+
+		System.out.println(alcatelRoberto);
 
 
 
