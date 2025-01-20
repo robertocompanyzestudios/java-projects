@@ -3,13 +3,20 @@ import java.util.Date;
 public class User {
     private String username;
     private String name;
-    private String NIF;
     private String email;
-    private String address;
     private Date birthdate;
+    private String NIF;
+    private String address;
     private String role;
 
 
+    //Constructors
+    public User(String username, String name, String email){
+        super();
+        this.username = username;
+        this.name = name;
+        this.email = email;
+    }
     public User(String username, String name, String NIF, String email, String address, Date birthdate, String role) {
         super();
         this.username = username;
