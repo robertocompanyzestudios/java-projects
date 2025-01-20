@@ -35,11 +35,12 @@ public class Bateria{
     }
 
 
-    public String toString(
-            return "Bateria" + "\nModelo = " + this.modelo + "\nTiempo de inactividad = " + this.tiempoInactividad + ;
-    ){
-
+    @Override
+    public String toString() {
+        return "Bateria{" +
+                "modelo='" + modelo + '\'' +
+                ", tiempoInactividad=" + tiempoInactividad +
+                ", horasCapacidad=" + horasCapacidad +
+                '}';
     }
-
-
 }
