@@ -17,7 +17,7 @@ public class Main {
             switch (choice){
                 case 1:
                     //iniciar sesion
-                    Session.login();
+                    System.out.println(Session.login());
                     break;
 
                 case 2:

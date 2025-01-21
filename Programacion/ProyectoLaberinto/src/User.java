@@ -1,4 +1,7 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Date;
+import java.util.Scanner;
 
 public class User {
     private String username;
@@ -82,4 +85,5 @@ public class User {
     public String toString(){
         return (this.username + "#" + this.name + "#" + this.NIF + "#" + this.email + "#" + this.birthdate + "#" + this.role);
     }
+
 }

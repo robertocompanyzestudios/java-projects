@@ -1,3 +1,0 @@
-dmunuera#123456#David Munuera Sanchez#dmunuera@gmail.com
-pepe#654321#Pepe Martinez#pepe@gmail.com
-maria#987654321#Maria Gomez#maria@gmail.com

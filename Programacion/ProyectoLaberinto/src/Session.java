@@ -16,10 +16,12 @@ public class Session {
     }
 
     //Comprueba que puede acceder al fichero y que no existe dicho usuario
+    //Entonces solicita los datos y los guarda en la BD
     public static boolean signup(){
         Scanner keyboard = new Scanner(System.in);
         String username = "";
         String password;
+        String name;
         boolean exists = true;
 
         while (exists){
@@ -29,20 +31,23 @@ public class Session {
             if (checkUsername(username)){
                 System.out.println("Username no disponible");
             }else {
-                exists = true;
+                exists = false;
             }
         }
 
         System.out.println("Introduzca su password: ");
         password = keyboard.nextLine();
 
+        System.out.println("Introduzca su nombre: ");
+        name = keyboard.nextLine();
+
         //Escribir datos en la BDD
-        //Sin completar
 
         try{
-            FileWriter writer = new FileWriter(Config.FILE_PATH + Config.USERS_FILE);
+            FileWriter writer = new FileWriter(Config.FILE_PATH + Config.USERS_FILE, true);
 
-            writer.write(username +"#" + password);
+            writer.write(username +"#" + password + "#" + name + "\n");
+            writer.close();
 
             return true;
         }catch (IOException e){
@@ -84,7 +89,7 @@ public class Session {
               String data = reader.nextLine();
               String[] splittedData = data.split("#");
 
-              if(splittedData[1].equals(username)){
+              if(splittedData[0].equals(username)){
                   return true;
               }
           }
@@ -106,7 +111,7 @@ public class Session {
                 String data = reader.nextLine();
                 String[] splittedData = data.split("#");
 
-                if(splittedData[1].equals(username) && splittedData[2].equals(password)){
+                if(splittedData[0].equals(username) && splittedData[1].equals(password)){
                     return true;
                 }
             }
@@ -118,7 +123,7 @@ public class Session {
         }
     }
 
-    //Por hacer
-    public static void addUser(String userInfo){}
+
+
 }
 
