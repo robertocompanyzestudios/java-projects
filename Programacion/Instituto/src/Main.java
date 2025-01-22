@@ -18,5 +18,7 @@ public class Main {
 
         System.out.println(biblioteca1.getLibros());
 
+        System.out.println(biblioteca1.gettotalLibros());
+
     }
 }
