@@ -25,10 +25,10 @@ public class Main {
                     //iniciar sesion
 
 
-                    Session.login();
+                    activeSession.login();
 
                     //Inicio de sesion correcto
-                    if (Session.getLogged()){
+                    if (activeSession.getLogged()){
 
                         System.out.println(Config.WELCOME);
 
@@ -50,19 +50,22 @@ public class Main {
                                     break;
 
                                 case 5:
-                                    System.out.println("Usuario: @" + Session.getUser().getUsername());
+                                    //Mostrar usuario
+                                    System.out.println("Usuario: @" + activeSession.getUser().getUsername());
                                     Interface.toContinue();
                                     break;
 
                                 case 6:
-                                    Session session = new Session();
+                                    //Cerrar sesion
+                                    activeSession.logOut();
                                     Interface.toContinue();
                                     break;
 
                                 case 0:
+                                    //Cerrar programa
                                     break program;
                             }
-                        }while (Session.getLogged());
+                        }while (activeSession.getLogged());
 
                     //Inicio de sesion incorreccto
                     }else{
@@ -73,7 +76,7 @@ public class Main {
 
                 case 2:
                     //registrarse
-                    Session.signup();
+                    activeSession.signup();
                     break;
 
                 case 0:

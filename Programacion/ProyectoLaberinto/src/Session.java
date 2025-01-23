@@ -6,33 +6,32 @@ import java.util.Scanner;
 
 
 public class Session {
-    private static User user;
-    private static Boolean logged = false;
+    private User user;
+    private Boolean logged = false;
 
 
     //Getters
     //Setters no declarados por seguridad y encapsulacion
-    public static User getUser() {
+    public User getUser() {
         return user;
     }
 
-    public static Boolean getLogged() {
+    public Boolean getLogged() {
         return logged;
     }
 
     //Constructors
-
     //Vaciar la clase / Retorno a valores default
     public Session(){
         super();
-        Session.user = null;
-        Session.logged = false;
+        this.user = null;
+        this.logged = false;
         //setLogged(true);
     }
 
     //Comprueba que puede acceder al fichero y que no existe dicho usuario
     //Entonces solicita los datos y los guarda en la BD
-    public static boolean signup(){
+    public boolean signup(){
         String username = "";
         boolean exists = true;
 
@@ -74,7 +73,7 @@ public class Session {
 
     //Controla el login
     //Si es correcto instancia una Session(tipo = Session session) con un User(tipo = User user)
-    public static boolean login() {
+    public boolean login() {
 
         String username;
         String password;
@@ -89,8 +88,8 @@ public class Session {
         if(checkUsernamePassword(username, password)){
             String[] data = getUserData(username);
             User user = new User(data[0], data[2], data[3]);
-            Session.user = user;
-            Session.logged = true;
+            this.user = user;
+            this.logged = true;
             return true;
         }else{
             return false;
@@ -100,9 +99,13 @@ public class Session {
 
     }
 
+    public void logOut(){
+        this.logged = false;
+    }
+
     //Comprueba si el username se encuentra en la BD
     //Devuelve true si lo encuentra
-    private static boolean checkUsername(String username){
+    private boolean checkUsername(String username){
       try{
           File database = new File(Config.FILE_PATH + Config.USERS_FILE);
           Scanner reader = new Scanner(database);
@@ -124,7 +127,7 @@ public class Session {
       }
     }
 
-    private static boolean checkUsernamePassword(String username, String password){
+    private boolean checkUsernamePassword(String username, String password){
         try{
             File database = new File(Config.FILE_PATH + Config.USERS_FILE);
             Scanner reader = new Scanner(database);
@@ -146,7 +149,7 @@ public class Session {
         }
     }
 
-    private static String[] getUserData(String username){
+    private String[] getUserData(String username){
         String[] errorArray = new String[1];
         errorArray[0] = "ERROR";
 
