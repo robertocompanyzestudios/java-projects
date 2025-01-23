@@ -99,6 +99,7 @@ public class Session {
 
     }
 
+    //Desconectar usuario
     public void logOut(){
         this.logged = false;
     }
