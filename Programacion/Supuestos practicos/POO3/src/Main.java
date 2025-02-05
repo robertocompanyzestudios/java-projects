@@ -31,6 +31,7 @@ public class Main {
                         while (lectorAlumnos.hasNextLine()){
                            data = lectorAlumnos.nextLine();
                            splittedData = data.split("&");
+                           //Si coinciden los ids
                            if (Integer.parseInt(splittedData[0]) == ){
 
                            }
