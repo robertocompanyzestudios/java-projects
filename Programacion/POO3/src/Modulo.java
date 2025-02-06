@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Modulo {
     private int id;
     private String nombre;
-    //private int 1/2 que;
+    private int curso;
     private int horasSemanales;
     private String profesor;
     private ArrayList<Alumno> alumnos;
@@ -11,11 +11,13 @@ public class Modulo {
     //Constructors
 
 
-    public Modulo(int id, String nombre, int horasSemanales, String profesor) {
+    public Modulo(int id, String nombre, int curso, int horasSemanales, String profesor) {
         this.id = id;
         this.nombre = nombre;
+        this.curso = curso;
         this.horasSemanales = horasSemanales;
         this.profesor = profesor;
+        this.alumnos = new ArrayList<Alumno>();
     }
 
     //Getters and Setters
@@ -31,6 +33,13 @@ public class Modulo {
     }
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getCurso() {
+        return curso;
+    }
+    public void setCurso(int curso) {
+        this.curso = curso;
     }
 
     public int getHorasSemanales() {
@@ -56,6 +65,18 @@ public class Modulo {
 
     //End Getters and Setters
 
+    public String getInfo() {
 
+        return "Modulo{" +
+                "\n \tid= " + id +
+                "\n \tnombre= " + nombre +
+                "\n \tcurso= " + curso +
+                "\n \thorasSemanales= " + horasSemanales +
+                "\n \tprofesor= " + profesor +
+                "}";
+    }
 
+    public void addAlumno(Alumno alumno){
+        this.alumnos.add(alumno);
+    }
 }

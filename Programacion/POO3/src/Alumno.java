@@ -5,18 +5,18 @@ public class Alumno {
     private String dni;
     private String email;
     private String direccion;
-    private String nre;
+    private int tel;
 
 
     //Constructors
-    public Alumno(int id, String nombre, String apellidos, String dni, String email, String direccion, String nre) {
+    public Alumno(int id, String nombre, String apellidos, String dni, String email, String direccion, int tel) {
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.dni = dni;
         this.email = email;
         this.direccion = direccion;
-        this.nre = nre;
+        this.tel = tel;
     }
 
 
@@ -63,10 +63,36 @@ public class Alumno {
         this.direccion = direccion;
     }
 
-    public String getNre() {
-        return nre;
+    public int gettel() {
+        return tel;
     }
-    public void setNre(String nre) {
-        this.nre = nre;
+    public void settel(int tel) {
+        this.tel = tel;
+    }
+
+    @Override
+    public String toString() {
+        return "Alumno{" +
+                "\n \tid= " + id +
+                "\n  \tnombre= " + nombre +
+                "\n  \tapellidos= " + apellidos +
+                "\n  \tdni= " + dni +
+                "\n  \temail= " + email +
+                "\n  \tdireccion= " + direccion +
+                "\n  \ttel= " + tel +
+                "}\n";
+    }
+
+    //Metodos
+    public String getInfo() {
+        return "Alumno:" +
+                "\n \tid= " + id +
+                "\n \tnombre= " + nombre +
+                "\n \tapellidos= " + apellidos +
+                "\n \tdni= " + dni +
+                "\n \temail= " + email +
+                "\n \tdireccion= " + direccion +
+                "\n \ttel= " + tel +
+                "}";
     }
 }

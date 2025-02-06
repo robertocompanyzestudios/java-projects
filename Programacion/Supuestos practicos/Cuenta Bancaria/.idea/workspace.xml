@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c6c253a-0714-43ed-9483-05cc4622f813" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../POO3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/POO3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/assets/alumnos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/assets/modulo_alumno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/assets/modulos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/src/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/src/Modulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/src/tools.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2scPe9W9N24HNMcqbBEOzqsPch7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/robec/Desktop/eclipse-workspace/Programacion/Cuenta Bancaria"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c6c253a-0714-43ed-9483-05cc4622f813" name="Changes" comment="" />
+      <created>1738751984877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738751984877</updated>
+    </task>
+    <servers />
+  </component>
+</project>
