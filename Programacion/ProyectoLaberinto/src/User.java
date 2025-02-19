@@ -1,14 +1,11 @@
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Date;
-import java.util.Scanner;
 
 public class User {
     private String username;
     private String name;
     private String email;
     private Date birthdate;
-    private String NIF;
+    private String nif;
     private String address;
     private String role;
 
@@ -20,11 +17,11 @@ public class User {
         this.name = name;
         this.email = email;
     }
-    public User(String username, String name, String NIF, String email, String address, Date birthdate, String role) {
+    public User(String username, String name, String nif, String email, String address, Date birthdate, String role) {
         super();
         this.username = username;
         this.name = name;
-        this.NIF = NIF;
+        this.nif = nif;
         this.email = email;
         this.address = address;
         this.birthdate = birthdate;
@@ -46,11 +43,11 @@ public class User {
         this.name = name;
     }
 
-    public String getNIF() {
-        return NIF;
+    public String getnif() {
+        return nif;
     }
-    public void setNIF(String NIF) {
-        this.NIF = NIF;
+    public void setnif(String nif) {
+        this.nif = nif;
     }
 
     public String getEmail() {
@@ -83,7 +80,7 @@ public class User {
 
     //ERROR?
     public String toString(){
-        return (this.username + "#" + this.name + "#" + this.NIF + "#" + this.email + "#" + this.birthdate + "#" + this.role);
+        return (this.username + "#" + this.name + "#" + this.nif + "#" + this.email + "#" + this.birthdate + "#" + this.role);
     }
 
 }

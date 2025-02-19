@@ -4,7 +4,6 @@
 * Autor: Roberto Company Zomeño
 */
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,11 +12,10 @@ public class Main {
 
         System.out.println(Config.WELCOME);
 
-        program:
-        while (true){
+        boolean continuar = true;
+        while (continuar){
             System.out.println(Config.UNLOGGED_MENU);
 
-            //Session();
             choice = Interface.getInt();
 
             switch (choice){
@@ -63,7 +61,12 @@ public class Main {
 
                                 case 0:
                                     //Cerrar programa
-                                    break program;
+                                    System.exit(0);
+                                    break;
+
+                                default:
+                                    //Numero incorrecto
+                                    System.out.println("Eleccion fuera de rango");
                             }
                         }while (activeSession.getLogged());
 
@@ -81,7 +84,8 @@ public class Main {
 
                 case 0:
                     //salir
-                    break program;
+                    System.exit(0);
+                    break;
 
                 default:
                     System.out.println("Introduzca una eleccion válida");

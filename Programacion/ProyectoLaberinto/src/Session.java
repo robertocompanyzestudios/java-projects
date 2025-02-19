@@ -16,8 +16,8 @@ public class Session {
         return user;
     }
 
-    public Boolean getLogged() {
-        return logged;
+    public boolean getLogged() {
+        return logged.booleanValue();
     }
 
     //Constructors
@@ -26,7 +26,6 @@ public class Session {
         super();
         this.user = null;
         this.logged = false;
-        //setLogged(true);
     }
 
     //Comprueba que puede acceder al fichero y que no existe dicho usuario
@@ -58,17 +57,15 @@ public class Session {
 
         //Escribir datos en la BDD
 
-        try{
-            FileWriter writer = new FileWriter(Config.FILE_PATH + Config.USERS_FILE, true);
+        try(FileWriter writer = new FileWriter(Config.FILE_PATH + Config.USERS_FILE, true)){
 
             writer.write(username +"#-#" + password + "#-#" + name + "#-#" + email + "#-#" + "\n");
-            writer.close();
+
 
             return true;
         }catch (IOException e){
             return false;
         }
-
     }
 
     //Controla el login
@@ -87,8 +84,8 @@ public class Session {
         //Comprueba si coincide con la bd e instancia el objeto user
         if(checkUsernamePassword(username, password)){
             String[] data = getUserData(username);
-            User user = new User(data[0], data[2], data[3]);
-            this.user = user;
+            User userToAdd = new User(data[0], data[2], data[3]);
+            this.user = userToAdd;
             this.logged = true;
             return true;
         }else{
@@ -117,10 +114,11 @@ public class Session {
               String[] splittedData = data.split("#-#");
 
               if(splittedData[0].equals(username)){
+                  reader.close();
                   return true;
               }
           }
-
+            reader.close();
             return false;
 
       } catch (FileNotFoundException e){
@@ -139,10 +137,12 @@ public class Session {
                 String[] splittedData = data.split("#-#");
 
                 if(splittedData[0].equals(username) && splittedData[1].equals(password)){
+                    reader.close();
                     return true;
                 }
             }
 
+            reader.close();
             return false;
 
         } catch (FileNotFoundException e){
@@ -165,10 +165,12 @@ public class Session {
                 String[] splittedData = data.split("#-#");
 
                 if(splittedData[0].equals(username)){
+                    reader.close();
                     return splittedData;
                 }
             }
 
+            reader.close();
         } catch (FileNotFoundException e){
             System.out.println("Archivo no encontrado");
         }

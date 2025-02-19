@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Interface {
-	public static Scanner keyboard = new Scanner(System.in);
+	private static Scanner keyboard = new Scanner(System.in);
 
 	// Sin enunciado
 	public static int getInt() {
@@ -23,15 +23,14 @@ public class Interface {
 
 	// Sin enunciado
 	public static String getString() {
-		String value = keyboard.nextLine().trim();
-		return value;
+		return keyboard.nextLine().trim();
+
 	}
 
 	// Con enunciado
 	public static String getString(String text) {
 		System.out.print(text);
-		String value = keyboard.nextLine().trim();
-		return value;
+		return keyboard.nextLine().trim();
 	}
 
 	// Metodo para que pida una accion para continuar
@@ -40,6 +39,7 @@ public class Interface {
 		try {
 			System.in.read();
 		} catch (Exception e) {
+			System.out.println("Error");
 		}
 	}
 }
