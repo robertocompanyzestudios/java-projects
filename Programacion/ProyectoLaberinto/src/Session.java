@@ -4,32 +4,58 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-
+/**
+ * Esta clase adminstra una sesion de usuario + contraseña
+ * @author Rcompany
+ * @version 0.1
+ */
 public class Session {
+    /**
+     * Usuario al que pertenece la sesión
+     */
     private User user;
-    private Boolean logged = false;
 
+    /**
+     * Almacena si hay un usuario logeado
+     */
+    private Boolean logged = false;
 
     //Getters
     //Setters no declarados por seguridad y encapsulacion
+
+    /**
+     * Devuelve el usuario de la sesion
+     * @return el usuario de la sesion
+     */
     public User getUser() {
         return user;
     }
 
+    /**
+     * Devuelve si esta logeado el usuario
+     * @return si el usuario esta logeado
+     */
     public boolean getLogged() {
         return logged.booleanValue();
     }
 
     //Constructors
-    //Vaciar la clase / Retorno a valores default
+
+    /**
+     * Devuelve la instancia a su estado default
+     */
     public Session(){
         super();
         this.user = null;
         this.logged = false;
     }
 
-    //Comprueba que puede acceder al fichero y que no existe dicho usuario
-    //Entonces solicita los datos y los guarda en la BD
+    /**
+     * Comprueba que puede acceder al fichero y que el username está libre
+     * Entonces solicita los datos y los guarda en la BD
+     * @return true/false si ha sido exitoso el registro
+     */
+
     public boolean signup(){
         String username = "";
         boolean exists = true;
@@ -68,8 +94,11 @@ public class Session {
         }
     }
 
-    //Controla el login
-    //Si es correcto instancia una Session(tipo = Session session) con un User(tipo = User user)
+    /**
+     * Administra el login
+     * Pide un username y cotraseña y si es correcto instancia un User para la Session y cambia el valor logged a true
+     * @return true/false si ha sido existoso
+     */
     public boolean login() {
 
         String username;
@@ -91,18 +120,22 @@ public class Session {
         }else{
             return false;
         }
-
-
-
     }
 
-    //Desconectar usuario
+    /**
+     * Desconectar usuario
+     * Cambia el valor de logged a false
+     */
     public void logOut(){
         this.logged = false;
     }
 
-    //Comprueba si el username se encuentra en la BD
-    //Devuelve true si lo encuentra
+    /**
+     * Comprueba si el username se encuentra en la BD
+     * Devuelve true si lo encuentra
+     * @param username El nombre del usuario
+     * @return true/false si se encuentra
+     */
     private boolean checkUsername(String username){
       try{
           File database = new File(Config.FILE_PATH + Config.USERS_FILE);
@@ -126,6 +159,12 @@ public class Session {
       }
     }
 
+    /**
+     * Compara la contraseña de un usuario con la recibida como parametro
+     * @param username
+     * @param password
+     * @return true/false si ha sido exitoso
+     */
     private boolean checkUsernamePassword(String username, String password){
         try{
             File database = new File(Config.FILE_PATH + Config.USERS_FILE);
@@ -150,6 +189,11 @@ public class Session {
         }
     }
 
+    /**
+     * Devuelve
+     * @param username
+     * @return Un array con los datos de un usuario recibido como parametro
+     */
     private String[] getUserData(String username){
         String[] errorArray = new String[1];
         errorArray[0] = "ERROR";
@@ -176,7 +220,6 @@ public class Session {
         }
         return errorArray;
     }
-
 
 
 }

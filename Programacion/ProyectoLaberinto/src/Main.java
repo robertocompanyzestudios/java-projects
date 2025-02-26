@@ -1,10 +1,9 @@
-/*
-*
-*
-* Autor: Roberto Company Zomeño
-*/
-
-
+/**
+ * Esta Se encarga de administrar el flujo de ejecución del proyecto
+ * todo el flujo del programa
+ * @author Rcompany
+ * @version 0.1
+ */
 public class Main {
     public static void main(String[] args) {
         Session activeSession = new Session();
