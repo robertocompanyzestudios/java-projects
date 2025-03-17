@@ -55,7 +55,6 @@ public class Session {
      * Entonces solicita los datos y los guarda en la BD
      * @return true/false si ha sido exitoso el registro
      */
-
     public boolean signup(){
         String username = "";
         boolean exists = true;

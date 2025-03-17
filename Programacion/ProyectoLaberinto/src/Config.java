@@ -7,7 +7,7 @@ public class Config {
     /**
      * Version actual del proyecto
      */
-    public static final  String VERSION = "0.1.0";
+    public static final  String VERSION = "0.2.0";
 
     /**
      * Direccion de la carpeta con recursos
@@ -18,6 +18,11 @@ public class Config {
      * Nombre del fichero que almacena la información de los usuarios
      */
     public static final  String USERS_FILE = "users.txt";
+
+    /**
+     * RUta del directorio que almacena los laberintos
+     */
+    public static final String MAZES_PATH = "./assets/mazes/";
 
     /**
      * Mensaje de bienvenida

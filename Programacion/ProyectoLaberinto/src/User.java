@@ -57,7 +57,7 @@ public class User {
     }
 
     /**
-     *
+     * Constructor por defecto
      * @param username Nombre del usuario en la aplicacion
      * @param name Nombre del usuario
      * @param nif Numero de identificacion fiscal del Usuario

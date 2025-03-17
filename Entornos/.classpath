@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="EDesarrollo/src"/>
+	<classpathentry kind="src" path="Entornos_4.3_Refactorizacion/Expresiones Regulares v2/src"/>
+	<classpathentry kind="src" path="Entornos_4.3_Refactorizacion/Simulacro Verbos/src"/>
+	<classpathentry kind="src" path="EntornosJunit/src"/>
+	<classpathentry kind="src" path="ProcesamientoArchivos/src"/>
+	<classpathentry kind="output" path="EDesarrollo/bin"/>
+</classpath>
