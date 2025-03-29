@@ -7,7 +7,9 @@
 public class Main {
     public static void main(String[] args) {
         Session activeSession = new Session();
+        Maze miLaberinto = new Maze();
         int choice;
+
 
         System.out.println(Config.WELCOME);
 
@@ -36,9 +38,15 @@ public class Main {
 
                             switch (choice){
                                 case 1:
-
+                                    miLaberinto.loadMaze();
+                                    break;
                                 case 2:
-
+                                    if(miLaberinto.isLoaded()){
+                                        System.out.println(miLaberinto.showMap());
+                                    } else {
+                                        System.out.println("Primero seleccione un laberinto.");
+                                    }
+                                    break;
                                 case 3:
 
                                 case 4:
