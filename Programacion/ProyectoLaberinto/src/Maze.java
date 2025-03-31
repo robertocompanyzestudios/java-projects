@@ -24,16 +24,20 @@ public class Maze {
                 "\nendJ: " + endJ;
     }
 
-    //Constructor
+    //Constructor--
     public Maze(){
 
     }
 
-    //Getters and Setters
+    //Getters and Setters--
     public boolean isLoaded() {
         return loaded;
     }
 
+    //Methods--
+    /**
+     * Selecciona un nuevo laberinto
+     */
     public void loadMaze(){
         String[] ficheros = getFicheros();
         for(int i = 0; i < ficheros.length; i++){
@@ -65,8 +69,11 @@ public class Maze {
                 maze[i] = data;
 
             }
-            reader = new Scanner(file);
 
+            this.startI = 0;
+            this.startJ = 0;
+            this.endI = 0;
+            this.endJ = 0;
             this.map = maze;
             this.loaded = true;
 
@@ -76,6 +83,10 @@ public class Maze {
 
     }
 
+    /**
+     * Muestra el laberinto cargado
+     * @return Una cadena con el laberinto cargado
+     */
     public String showMap(){
         String maze = "";
 
@@ -102,7 +113,6 @@ public class Maze {
             // 12 ->  1 and 12 -> 1 2
             //    ->  2
             String data = String.valueOf(i);
-            System.out.println("data: " + data);
             for (int j = digitos(i)-1, index = 0; j >= 0 ; j--, index++) {
 
                 laberintoIndexado[digitos-1-j][i+1] = data.charAt(index);
@@ -111,7 +121,15 @@ public class Maze {
             }
         }
 
-        
+
+        //Si la entrada y salida están asignadas, las incluye en el array
+        if (startI != 0) {
+            laberintoIndexado[digitos + startI][digitos + startJ] = 'E';
+            laberintoIndexado[digitos + endI][digitos + endJ] = 'S';
+        }
+
+
+        //Va cargando el string final que se mostrará
         maze = maze + "\n";
         for(char[] i : laberintoIndexado){
             for (char j : i){
@@ -126,13 +144,53 @@ public class Maze {
         return maze;
     }
 
+    /**
+     * Establece las casillas de Entrada y salida del laberinto
+     */
+    public void setEntranceExit(){
+        int entradaX;
+        int entradaY;
+        int salidaX;
+        int salidaY;
+
+        boolean vacia = false;
+        while(!vacia){
+            entradaX = Interface.getInt("Introduzca la posición horizontal de la casilla de entrada: ") - 1;
+            entradaY = Interface.getInt("Introduzca la posición vertical de la casilla de entrada: ") - 1;
+
+            if(this.map[entradaY][entradaX] != '#'){
+                this.startI = entradaY;
+                this.startJ = entradaX;
+                vacia = true;
+            } else {
+                System.out.println("La casilla no está vacía");
+            }
+        }
+
+        vacia = false;
+        while(!vacia){
+            salidaX = Interface.getInt("Introduzca la posición horizontal de la casilla de salida: ") - 1;
+            salidaY = Interface.getInt("Introduzca la posición vertical de la casilla de salida: ") - 1;
+
+            if(this.map[salidaY][salidaX] != '#'){
+                this.endI = salidaY;
+                this.endJ = salidaX;
+                vacia = true;
+            } else {
+                System.out.println("La casilla no está vacía");
+            }
+
+        }
 
 
-    //Métodos privados
+    }
+
+
+    //Métodos privados--
 
     /**
      * Devuelve una lista de los ficheros del directorio mazes
-     * @return
+     * @return un array de cadenas
      */
     private String[] getFicheros(){
         try{

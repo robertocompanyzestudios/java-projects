@@ -38,18 +38,24 @@ public class Main {
 
                             switch (choice){
                                 case 1:
+                                    //Cargar laberinto
                                     miLaberinto.loadMaze();
                                     break;
                                 case 2:
+                                    //Mostrar laberinto
                                     if(miLaberinto.isLoaded()){
                                         System.out.println(miLaberinto.showMap());
                                     } else {
                                         System.out.println("Primero seleccione un laberinto.");
+                                        Interface.toContinue();
                                     }
                                     break;
                                 case 3:
-
+                                    //Establecer casillas E/S
+                                    miLaberinto.setEntranceExit();
+                                    break;
                                 case 4:
+                                    //Resuelve el laberinto
                                     System.out.println("Disponible proximamente");
                                     Interface.toContinue();
                                     break;
@@ -63,6 +69,7 @@ public class Main {
                                 case 6:
                                     //Cerrar sesion
                                     activeSession.logOut();
+                                    miLaberinto = new Maze();
                                     Interface.toContinue();
                                     break;
 
