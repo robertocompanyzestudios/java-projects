@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2207ab62-5eab-44d4-8194-039aee88f3a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Entornos/Entornos_4.3_Refactorizacion" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entornos/Entornos_4.3_Refactorizacion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/Alumnos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/src/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnos/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array to List/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array to List/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array to List/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array to List/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array to List/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array to List/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array to List/Array to List.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array to List/src/ListaArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/bin/Estudiante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/bin/EstudianteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/src/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/src/EstudianteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClaesInterfacesEnumeradps/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/Cuenta Bancaria.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/src/Cuenta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuenta Bancaria/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/Diccionario Espanol Ingles.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/assets/Salida" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/assets/palabras.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/src/Diccionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diccionario Espanol Ingles/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/Ejercicio POO 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/assets/coordenadas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/src/Coordenada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio POO 2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/Examen 2a Ev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/files/clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen 2a Ev/src/Utilidades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/Expresiones Regulares.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/src/ejer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/src/ejer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/src/ejer3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/src/ejer6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/src/ejer7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/src/ejer8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expresiones Regulares/src/expresiones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/Instituto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/Bateria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/Biblioteca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/BibliotecaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/Libro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/Pantalla.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/TelefonoMovil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Instituto/src/TipoBateria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/Interfaz Comparable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaz Comparable/src/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/Iterables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Iterables/src/UsoColeccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Listas/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Listas/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Listas/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Listas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Listas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Listas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Listas/Listas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Listas/src/EjListaInterseccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/Matrices.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/src/Baraja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/src/Numerar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrices/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modificar y eliminar elementos de un array/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modificar y eliminar elementos de un array/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modificar y eliminar elementos de un array/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modificar y eliminar elementos de un array/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modificar y eliminar elementos de un array/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modificar y eliminar elementos de un array/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modificar y eliminar elementos de un array/Modificar y eliminar elementos de un array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modificar y eliminar elementos de un array/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/POO3_A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/assets/alumnos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/assets/modulo_alumno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/assets/modulos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/src/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/src/Modulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO3/src/tools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/ProyectoLaberinto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/assets/mazes/laberinto1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/assets/mazes/laberinto2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/assets/mazes/laberinto3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/assets/users.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/Config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/Interface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/Session.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/User.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/class-use/Config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/class-use/Interface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/class-use/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/class-use/Session.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/class-use/User.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/legal/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/legal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/legal/dejavufonts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/legal/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/legal/jqueryUI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSans-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSans-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSans-Oblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSans-Oblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSans.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSans.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSansMono-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSansMono-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSansMono.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSansMono.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSerif-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSerif-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSerif-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSerif-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSerif.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/DejaVuLGCSerif.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/fonts/dejavu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/resource-files/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/script-files/jquery-3.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/script-files/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/script-files/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/script-files/search-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/script-files/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/doc/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/proyecto.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/src/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/src/Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/src/Maze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/src/Session.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoLaberinto/src/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pruebas examen ut6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pruebas examen ut6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pruebas examen ut6/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pruebas examen ut6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pruebas examen ut6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pruebas examen ut6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pruebas examen ut6/Pruebas examen ut6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pruebas examen ut6/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/Repaso Examen T6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/src/Cola.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso Examen T6/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso matrices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso matrices/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso matrices/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso matrices/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso matrices/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso matrices/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso matrices/Repaso matrices.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Repaso matrices/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/Simulacro2 usuarios.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/assets/usuarios.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro2 usuarios/output/plantilla.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuesto practico leer caracteres por teclado/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuesto practico leer caracteres por teclado/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuesto practico leer caracteres por teclado/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuesto practico leer caracteres por teclado/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuesto practico leer caracteres por teclado/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuesto practico leer caracteres por teclado/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuesto practico leer caracteres por teclado/Supuesto practico leer caracteres por teclado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuesto practico leer caracteres por teclado/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/Cuenta Bancaria/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/Cuenta Bancaria/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/Cuenta Bancaria/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/POO3_B.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/assets/alumnos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/assets/modulo_alumno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/assets/modulos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/src/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/src/Modulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/POO3_B/src/tools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/Supuestos practicos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/src/figura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/src/matriz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/untitled/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supuestos practicos/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/Tareas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tareas/src/Tarea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/bin/programacionPOO/Automovil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/bin/programacionPOO/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/bin/programacionPOO/Main_persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/bin/programacionPOO/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/src/programacionPOO/Automovil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/src/programacionPOO/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/src/programacionPOO/Main_persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacionPOO/src/programacionPOO/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/ConstructoresString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2woB3noBh2ApLDxUdZ3AfD4ZixT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ejer3.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/robec/Desktop/eclipse-workspace/Programacion/JDBC prueba",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\robec\Desktop\eclipse-workspace\Programacion\JDBC prueba\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2207ab62-5eab-44d4-8194-039aee88f3a5" name="Changes" comment="" />
+      <created>1746697855835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746697855835</updated>
+    </task>
+    <servers />
+  </component>
+</project>
